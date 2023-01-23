@@ -7,6 +7,7 @@ function draw() {
 	textSize(100);
 	fill(180);
 	text(hour(), 10, 30);
+	text("sup");
 	fill(100);
 	text(minute(), 10, 60);
 	fill(0);
