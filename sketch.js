@@ -1,6 +1,7 @@
+var minVal = -1;
+
 function setup() {
     createCanvas(800,400); // make an HTML canvas element width x height pixels
-    var minVal = -1;
 }
 
 function drawTicks()
