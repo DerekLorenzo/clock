@@ -1,6 +1,6 @@
 function setup() {
     createCanvas(800,400); // make an HTML canvas element width x height pixels
-    var min = -1;
+    var minVal = -1;
 }
 
 function drawTicks()
@@ -45,9 +45,9 @@ function draw() {
     let total = 24 * 60 * 60 / 2;
     let current = Math.abs(total - (h*60*60+m*60+s));
   
-    if(min != m){
-      min = m;
-      console.log(min);
+    if(minVal != m){
+      minVal = m;
+      console.log(minVal);
     }
   
     //calculate background color
